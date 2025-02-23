@@ -90,3 +90,76 @@ th, td {
 #count , #category {
     width:100%
 }
+@media (max-width: 992px) {
+    .cruds {
+        width: 95%;
+    }
+    .price1 input {
+        width: 30%;
+    }
+    .btnSearch {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .btnSearch button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    input {
+        height: 35px;
+    }
+    .price1 input {
+        width: 45%;
+    }
+    table {
+        font-size: 14px;
+    }
+    th, td {
+        padding: 3px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        font-size: 18px; /* Bigger font for readability */
+    }
+    
+    input {
+        height: 45px; /* Bigger input fields */
+        font-size: 16px; /* Bigger text inside inputs */
+    }
+
+    button {
+        font-size: 18px; /* Bigger text on buttons */
+        height: 50px; /* Increase button height */
+    }
+
+    .price1 {
+        display: flex;
+        flex-direction: column; /* Stack fields */
+        gap: 10px;
+    }
+
+    .price1 input {
+        width: 100%; /* Make inputs full width */
+    }
+
+    table {
+        font-size: 14px; /* Slightly bigger text */
+    }
+
+    th, td {
+        padding: 8px; /* Increase table padding */
+    }
+
+    .btnSearch {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btnSearch button {
+        width: 100%; /* Full width search buttons */
+    }
+}
